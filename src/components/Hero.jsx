@@ -1,11 +1,10 @@
-import { curve, heroBackground, robot, jinx, yasuo, logolol, faker } from "../assets";
+import { curve, heroBackground, jinx, yasuo, faker } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
-import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -37,7 +36,7 @@ const Hero = () => {
             Conquiste recompensas em dinheiro e eleve sua equipe ao topo do cenário competitivo
             com nossa plataforma inovadora.
           </p>
-          <Button href="/pricing" white>
+          <Button href="#" white>
             Quero participar
           </Button>
         </div>
@@ -79,10 +78,11 @@ const Hero = () => {
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
               src={heroBackground}
-              className="w-full"
+              className="w-full h-full object-cover"
               width={1440}
               height={1800}
               alt="hero"
+              style={{ opacity: 0.2 }}
             />
           </div>
 

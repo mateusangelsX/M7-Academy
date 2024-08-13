@@ -2,35 +2,25 @@ import {
   benefitIcon1,
   benefitIcon2,
   benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
   chromecast,
   disc02,
   discord,
   discordBlack,
   facebook,
-  figma,
   file02,
-  framer,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
-  roadmap1,
+  cllnotification,
   roadmap2,
-  roadmap3,
-  roadmap4,
   searchMd,
-  slack,
   sliders04,
+  trophy,
   telegram,
   twitter,
   yourlogo,
@@ -43,32 +33,15 @@ export const navigation = [
     url: "#features",
   },
   {
-    id: "1",
-    title: "-------",
-    url: "#pricing",
+    id: "2",
+    title: "Redes Sociais",
+    url: "#sociais",
   },
   {
     id: "2",
-    title: "Contato",
-    url: "#how-to-use",
+    title: "Premiações",
+    url: "#winners",
   },
-  // {
-  //   id: "3",
-  //   title: "Roadmap",
-  //   url: "#roadmap",
-  // },
-  // {
-  //   id: "4",
-  //   title: "New account",
-  //   url: "#signup",
-  //   onlyMobile: true,
-  // },
-  // {
-  //   id: "5",
-  //   title: "Sign in",
-  //   url: "#login",
-  //   onlyMobile: true,
-  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -77,13 +50,13 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+export const m7Services = [
+  "Seguro",
+  "Staff 100% ativa",
+  "Confiável",
 ];
 
-export const brainwaveServicesIcons = [
+export const m7ServicesIcons = [
   recording03,
   recording01,
   disc02,
@@ -94,36 +67,20 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
+    title: "Whatsapp",
+    text: "Estamos desenvolvendo uma melhor maneira de comunicação.",
+    date: "Julho 2024",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: cllnotification,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
+    title: "Discord",
+    text: "Estamos desenvolvendo uma melhor maneira de comunicação.",
+    date: "Maio 2024",
     status: "progress",
     imageUrl: roadmap2,
-  },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
   },
 ];
 
@@ -141,95 +98,24 @@ export const collabContent = [
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
-  },
-  {
-    id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
-    height: 36,
-  },
-  {
-    id: "2",
     title: "Discord",
     icon: discord,
     width: 36,
     height: 28,
   },
   {
-    id: "3",
-    title: "Slack",
-    icon: slack,
-    width: 34,
-    height: 35,
-  },
-  {
-    id: "4",
-    title: "Photoshop",
-    icon: photoshop,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
-  },
-  {
-    id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
-    height: 34,
-  },
-  {
-    id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
-  },
-];
-
-export const pricing = [
-  {
-    id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+    title: "Instagram",
+    icon: instagram,
+    width: 36,
+    height: 28,
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    title: "Whatsapp",
+    icon: discord,
+    width: 36,
+    height: 28,
   },
 ];
 
@@ -240,7 +126,7 @@ export const benefits = [
     text: "A comunicação eficaz é essencial para uma plataforma de montagem de times e apostas, trazendo benefícios significativos",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: trophy,
   },
   {
     id: "1",
@@ -248,7 +134,7 @@ export const benefits = [
     text: "A plataforma incentiva a criatividade ao permitir que os usuários formem equipes personalizadas e criem estratégias únicas para suas apostas. Com uma interface intuitiva e ferramentas flexíveis.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: trophy,
     light: true,
   },
   {
@@ -257,7 +143,7 @@ export const benefits = [
     text: "Na nossa plataforma, se um usuário perder a conexão durante uma partida, a sessão será pausada automaticamente. Isso garante que a partida continue de forma justa e que todos tenha chance.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: trophy,
   },
 ];
 
@@ -278,7 +164,7 @@ export const socials = [
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/m7_academy_/",
   },
   {
     id: "3",
